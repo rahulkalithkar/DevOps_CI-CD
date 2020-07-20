@@ -10,7 +10,7 @@ public class DevOpsDemoApplication {
 	private static final Logger log = LoggerFactory.getLogger(DevOpsDemoApplication.class);
 
 	public static void main(String[] args) {
-		log.info("Main method has been invoked");
+		log.info("Main method has been invoked"); 
 		SpringApplication.run(DevOpsDemoApplication.class, args);
 	}
 
