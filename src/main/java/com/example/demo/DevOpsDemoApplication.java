@@ -12,6 +12,7 @@ public class DevOpsDemoApplication {
 	public static void main(String[] args) {
 		log.info("Main method has been invoked"); 
 		SpringApplication.run(DevOpsDemoApplication.class, args);
+		System.out.println("App running");
 	}
 
 }
