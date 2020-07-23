@@ -16,7 +16,7 @@ node{
     stage('Docker Image push'){
         withCredentials([string(credentialsId: 'docker_creds', variable: 'docker_pwd')]) {
         sh 'sudo docker login -u kalithkar -p ${docker_pwd}'
-        sh 'sudo docker push kalithkar/tomcat_webapp:2.0'
+        sh 'sudo docker push kalithkar/spring_app:2.0'
         }
     }
     
