@@ -1,4 +1,4 @@
-FROM openjdk
+FROM openjdk:15-slim
 
 ARG JAR_FILE=/target/DevOps_Demo-0.0.1-SNAPSHOT.jar
 
