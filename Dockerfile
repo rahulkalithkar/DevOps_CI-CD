@@ -1,4 +1,6 @@
-FROM openjdk:8-jdk-alpine
+FROM openjdk:15-slim
+
+EXPOSE 80
 
 ARG JAR_FILE=/target/DevOps_Demo-0.0.1-SNAPSHOT.jar
 
